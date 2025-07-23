@@ -139,35 +139,35 @@ const Careers = () => {
                                     <div className="bg-black/30 rounded-lg p-6 flex flex-col text-center space-y-4 h-full">
                                         <Package className="w-12 h-12 text-ambev-blue self-center" />
                                         <h4 className="font-bold text-2xl text-white pt-2">Benefícios Essenciais</h4>
-                                        <p className="text-white/80 text-left">✓ Vale Alimentação (R$200/mês)</p>
-                                        <p className="text-white/80 text-left">✓ Vale Refeição (R$330/mês)</p>
-                                        <p className="text-white/80 text-left">✓ Plano de Saúde e Odontológico</p>
-                                        <p className="text-white/80 text-left">✓ Seguro de Vida</p>
-                                        <p className="text-white/80 text-left">✓ Vale Transporte</p>
+                                        <p className="text-white/100 text-left">✓ Vale Alimentação </p>
+                                        <p className="text-white/100 text-left">✓ Vale Refeição </p>
+                                        <p className="text-white/100 text-left">✓ Plano de Saúde e Odontológico</p>
+                                        <p className="text-white/100 text-left">✓ Seguro de Vida</p>
+                                        <p className="text-white/100 text-left">✓ Vale Transporte</p>
                                     </div>
-                                    <div className="bg-black/30 rounded-lg p-6 flex flex-col text-center space-y-4 h-full">
+                                    <div className="bg-black/80 rounded-lg p-6 flex flex-col text-center space-y-4 h-full">
                                         <Rocket className="w-12 h-12 text-ambev-red self-center" />
                                         <h4 className="font-bold text-2xl text-white pt-2">Carreira e Desenvolvimento</h4>
-                                        <p className="text-white/80 text-left">✓ Auxílio Faculdade (50%)</p>
-                                        <p className="text-white/80 text-left">✓ Plano de Carreira estruturado</p>
-                                        <p className="text-white/80 text-left">✓ Treinamentos de Capacitação</p>
-                                        <p className="text-white/80 text-left">✓ Suporte para renovação de CNH</p>
+                                        <p className="text-white/100 text-left">✓ Auxílio Faculdade (50%)</p>
+                                        <p className="text-white/100 text-left">✓ Plano de Carreira estruturado</p>
+                                        <p className="text-white/100 text-left">✓ Treinamentos de Capacitação</p>
+                                        <p className="text-white/100 text-left">✓ Suporte para renovação de CNH</p>
                                     </div>
-                                    <div className="bg-black/30 rounded-lg p-6 flex flex-col text-center space-y-4 h-full">
+                                    <div className="bg-black/80 rounded-lg p-6 flex flex-col text-center space-y-4 h-full">
                                         <Sparkles className="w-12 h-12 text-ambev-yellow self-center" />
                                         <h4 className="font-bold text-2xl text-white pt-2">Vantagens e Bem-estar</h4>
-                                        <p className="text-white/80 text-left">✓ Gympass (desde R$39,99)</p>
-                                        <p className="text-white/80 text-left">✓ Descontos em produtos Ambev</p>
-                                        <p className="text-white/80 text-left">✓ Empréstimo Consignado</p>
-                                        <p className="text-white/80 text-left">✓ Acompanhamento Psicológico</p>
+                                        <p className="text-white/100 text-left">✓ Gympass (desde R$39,99)</p>
+                                        <p className="text-white/100 text-left">✓ Descontos em produtos Ambev</p>
+                                        <p className="text-white/100 text-left">✓ Empréstimo Consignado</p>
+                                        <p className="text-white/100 text-left">✓ Acompanhamento Psicológico</p>
                                     </div>
                                     <div className="bg-black/30 rounded-lg p-6 flex flex-col text-center space-y-4 h-full">
                                         <Award className="w-12 h-12 text-white self-center" />
                                         <h4 className="font-bold text-2xl text-white pt-2">Cultura e Reconhecimento</h4>
-                                        <p className="text-white/80 text-left">✓ Celebração para aniversariantes</p>
-                                        <p className="text-white/80 text-left">✓ Reconhecimento por tempo de casa</p>
-                                        <p className="text-white/80 text-left">✓ Destaques do Mês</p>
-                                        <p className="text-white/80 text-left">✓ Programa de Padrinhos</p>
+                                        <p className="text-white/100 text-left">✓ Celebração para aniversariantes</p>
+                                        <p className="text-white/100 text-left">✓ Reconhecimento por tempo de casa</p>
+                                        <p className="text-white/100 text-left">✓ Destaques do Mês</p>
+                                        <p className="text-white/100 text-left">✓ Programa de Padrinhos</p>
                                     </div>
                                 </div>
                             </motion.section>
@@ -176,10 +176,10 @@ const Careers = () => {
                                 <p className="text-xl text-center text-white/80 max-w-4xl mx-auto mb-12">
                                     Nossos colaboradores e seus familiares têm acesso a uma rede de descontos exclusivos para economizar em educação, bem-estar e muito mais.
                                 </p>
-                                <div className="bg-black/30 rounded-lg p-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                                <div className="bg-black/50 rounded-lg p-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                                     <p className="text-white font-bold text-lg">✓ SEST SENAT e SESC</p>
                                     <p className="text-white font-bold text-lg">✓ Escolas de Idiomas (até 35%)</p>
-                                    <p className="text-white font-bold text-lg">✓ Universidades (até 25%)</p>
+                                    <p className="text-white font-bold text-lg">✓ Universidades (até 50%)</p>
                                     <p className="text-white font-bold text-lg">✓ Barbearia Igor Rocha (15%)</p>
                                     <p className="text-white font-bold text-lg">✓ Academia Iron Cross (10%)</p>
                                     <p className="text-white font-bold text-lg">✓ Óticas (até 20%)</p>
