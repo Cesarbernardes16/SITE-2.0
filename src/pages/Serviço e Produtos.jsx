@@ -38,7 +38,6 @@ const Products = () => {
 
     const wineBrands = [
         { name: 'Vinho Robino', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-7sqmkGAGDIYe56R39oRg_o6FVzMrsq3pGw&s' },
-        { name: 'Vinho Branco', imageUrl: 'https://cdn.awsli.com.br/2500x2500/784/784082/produto/330773210/630ea39ba362a6ff791e5d25b3c55e86-kf1xdy4pe3.png' },
         { name: 'Vinho Rosé', imageUrl: 'https://boa.vtexassets.com/arquivos/ids/581899/Vinho-Tinto-Malbec-Argentino-Novecento-750ml.jpg?v=638605624329100000' },
         { name: 'Espumante', imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_827226-MLB84357290587_052025-O-vinho-argentino-gran-dante-malbec-safra-2019.webp' },
         { name: 'Espumante', imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_827226-MLB84357290587_052025-O-vinho-argentino-gran-dante-malbec-safra-2019.webp' },
