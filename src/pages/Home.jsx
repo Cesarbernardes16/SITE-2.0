@@ -28,20 +28,25 @@ const Home = ({ setActiveTab }) => {
       animate="visible"
       exit={{ opacity: 0, transition: { duration: 0.3 } }}
       variants={containerVariants}
-      className="text-center flex flex-col items-center space-y-16"
+      className="flex flex-col items-center"
     >
       {/* Hero Section */}
-      <motion.section variants={itemVariants} className="flex flex-col items-center space-y-6 relative">
-        <h1 className="font-heavy text-7xl text-white drop-shadow-lg">
+      <motion.section 
+        variants={itemVariants} 
+        className="min-h-[calc(100vh-8rem)] w-full flex flex-col justify-center items-center space-y-6 text-center"
+      >
+        {/* ===== MUDANÇA 1: Aumentado o tamanho da fonte de text-7xl para text-8xl ===== */}
+        <h1 className="font-heavy text-8xl text-white drop-shadow-lg">
           Cervejaria Ambev Gran Dourados
         </h1>
         <h2 className="font-bold text-4xl text-ambev-yellow drop-shadow-[2px_2px_8px_rgba(0,0,0,0.8)]">
           Por mais razões para brindar
         </h2>
-        <div className="flex items-center space-x-4 pt-4">
+        <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4 pt-4">
+          {/* ===== MUDANÇA 2: Estilo do botão revertido para outline (vazado) ===== */}
           <Button
             variant="outline"
-            className="px-10 py-6 bg-transparent border-2 border-white text-white font-bold text-lg rounded-lg hover:bg-ambev-yellow hover:text-black hover:border-ambev-yellow transform hover:scale-105 transition-all duration-300"
+            className="px-10 py-4 bg-transparent border-2 border-white text-white font-bold text-lg rounded-lg hover:bg-white hover:text-black hover:border-white transform hover:scale-105 transition-all duration-300"
             asChild
           >
             <a href="https://wa.me/556734115000" target="_blank" rel="noopener noreferrer">
@@ -51,7 +56,7 @@ const Home = ({ setActiveTab }) => {
           <Button
             onClick={() => setActiveTab('trabalhe-conosco')}
             variant="outline"
-            className="px-10 py-6 bg-transparent border-2 border-white text-white font-bold text-lg rounded-lg hover:bg-ambev-yellow hover:text-black hover:border-ambev-yellow transform hover:scale-105 transition-all duration-300"
+            className="px-10 py-4 bg-transparent border-2 border-white text-white font-bold text-lg rounded-lg hover:bg-white hover:text-black hover:border-white transform hover:scale-105 transition-all duration-300"
           >
             Trabalhe Conosco
           </Button>
@@ -61,9 +66,9 @@ const Home = ({ setActiveTab }) => {
       {/* Highlights Section */}
       <motion.section
         variants={itemVariants}
-        className="w-full max-w-5xl bg-black/30 backdrop-blur-sm rounded-lg p-8"
+        className="w-full max-w-5xl bg-black/30 backdrop-blur-sm rounded-lg p-8 mt-16"
       >
-        <h3 className="font-heavy text-3xl text-white mb-8">
+        <h3 className="font-heavy text-3xl text-white mb-8 text-center">
           Sua Revenda de Confiança
         </h3>
         <div className="grid md:grid-cols-3 gap-8">
@@ -107,9 +112,9 @@ const Home = ({ setActiveTab }) => {
       </motion.section>
 
       {/* Featured Brands Section */}
-      <motion.section variants={itemVariants} className="w-full max-w-5xl">
-        <h3 className="font-heavy text-3xl text-white mb-8">MEGA MARCAS 2025</h3>
-        <div className="flex justify-center flex-wrap gap-6">
+      <motion.section variants={itemVariants} className="w-full max-w-5xl mt-16">
+        <h3 className="font-heavy text-3xl text-white mb-8 text-center">MEGA MARCAS 2025</h3>
+        <div className="flex justify-center flex-wrap gap-x-12 gap-y-6">
           {[
             { alt: "Logo da marca Guarana", src: "https://www.ambev.com.br/sites/g/files/wnfebl12286/files/styles/webp/public/Projetos/Ambev-Institucional/High%20Fidelity/Venda%20Ambev/Marcas%20N%C3%A3o%20Alcoolicas/Rectangle%203433.png.webp?itok=wFUJajsp" },
             { alt: "Logo da marca Brahma", src: "https://www.ambev.com.br/sites/g/files/wnfebl12286/files/styles/webp/public/Projetos/Ambev-Institucional/High%20Fidelity/Venda%20Ambev/Marcas%20Alcoolicas/Rectangle%203429.png.webp?itok=3DPbUMMc" },
@@ -121,12 +126,10 @@ const Home = ({ setActiveTab }) => {
               key={index}
               alt={logo.alt}
               src={logo.src}
-              className="h-20 md:h-24 w-auto object-contain rounded-lg shadow-lg cursor-pointer"
+              className="h-20 md:h-24 w-auto object-contain cursor-pointer"
               whileHover={{
-                scale: 1.2,
-                rotateX: 10,
-                rotateY: -10,
-                transition: { type: "spring", stiffness: 200, damping: 10 }
+                scale: 1.1,
+                transition: { type: "spring", stiffness: 300 }
               }}
             />
           ))}
