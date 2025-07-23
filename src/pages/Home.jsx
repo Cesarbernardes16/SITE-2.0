@@ -112,7 +112,7 @@ const Home = ({ setActiveTab }) => {
       </motion.section>
 
       {/* Featured Brands Section */}
-      <motion.section variants={itemVariants} className="w-full max-w-5xl mt-16">
+      <motion.section variants={itemVariants} className="w-full max-w-5xl mt-40">
         <h3 className="font-heavy text-3xl text-white mb-8 text-center">MEGA MARCAS 2025</h3>
         <div className="flex justify-center flex-wrap gap-x-12 gap-y-6">
           {[
