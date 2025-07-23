@@ -39,11 +39,11 @@ function App() {
         <title>Cervejaria Ambev Gran Dourados - Por mais razões para brindar</title>
         <meta name="description" content="Sua distribuidora de bebidas Ambev em Gran Dourados. Qualidade, confiança e os melhores preços." />
       </Helmet>
-
+            \\https://images.unsplash.com/photo-1608270586620-248524c67de9?q=80&w=1974&auto=format&fit=crop
       <div className="min-h-screen font-sans">
         <div 
           className="fixed inset-0 w-full h-full -z-20 bg-cover bg-center"
-          style={{ backgroundImage: `url('https://images.unsplash.com/photo-1608270586620-248524c67de9?q=80&w=1974&auto=format&fit=crop')`}}
+          style={{ backgroundImage: `url('https://images.unsplash.com/photo-1618183449970-88c6114ed12e')`}}
         ></div>
         <div className="fixed inset-0 w-full h-full -z-10 bg-black/40 backdrop-blur-md"></div>
         
